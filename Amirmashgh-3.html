@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title> Tab Style </title>
+</head>
+
+<body>
+ <div class="demo">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="heading-title"> Questionnaire </h1>
+            </div>
+
+	<div class="row">
+        <div class="col-lg-10 col-md-5 col-sm-8 col-xs-9 bhoechie-tab-container">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
+              <div class="list-group">
+                <a href="#" class="list-group-item active text-center">
+                  <h4 class="fa fa-transgender-alt fa-3x" style="font-size:3em;"></h4><br/>Gender-Age-Disability
+                </a>
+                <a href="#" class="list-group-item text-center">
+                  <h4 class="glyphicon glyphicon-home"></h4><br/>Home-Park
+                </a>
+                <a href="#" class="list-group-item text-center">
+                  <h4 class="fa fa-car fa-3x"></h4><br/>Transportation
+                </a>
+                <a href="#" class="list-group-item text-center">
+                  <h4 class="fa fa-dribbble fa-3x"></h4><br/>Activity
+                </a>
+                <a href="#" class="list-group-item text-center">
+                  <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Time Table
+                </a>
+              </div>
+            </div>
+			
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab">
+                <!-- Gender-Age-Disability -->
+                <div class="bhoechie-tab-content active" style="padding-top:150px;">
+			
+			<div>	
+			    <left>
+			    <font size="4">Please define your gender!</font>
+	        
+			      <!-- <input type="checkbox" name="vehicle2" value="older60">&nbsp;&nbsp;<div class="fa fa-male fa-3x"></div><br><br> -->
+			      <input type="checkbox" name="vehicle3" value="male">&nbsp;&nbsp;<div class="fa fa-male fa-4x"></div>&nbsp;&nbsp;
+			      <input type="checkbox" name="vehicle4" value="female">&nbsp;&nbsp;<div class="fa fa-female fa-4x"></div><br><br>
+	
+	  		<p><font size="4">What age group do you belong to?</font></p>
+	  		
+			    <p><input type="radio" name="agegroup1"  id="agegroup01" value="0-30" ><font size="3">Less than 30</font></p>
+			    <p><input type="radio" name="agegroup2"  id="agegroup02" value="30 - 60" >30 - 60</p>
+			    <p><input type="radio" name="agegroup3"  id="agegroup03" value="60+" >60+</p>
+		
+	  		</div>
+	  	
+			
+			
+                </div>
+				
+				
+                <!-- Transportation  -->
+                <div class="bhoechie-tab-content">
+			<div class="row" style="padding-top:150px;">
+		            
+		            
+			</div>
+                </div>
+    
+	
+                <!-- Home-Park -->
+                <div class="bhoechie-tab-content">
+			<div class="row" style="padding-top:150px;">
+		            <center>
+					 <br><br>
+		               <input type="checkbox" name="vehicle1" value="Bike">&nbsp;&nbsp;<div class="fa fa-bicycle fa-4x" style="font-size:3
+em;"></div>
+			      <input type="checkbox" name="Transportation2" value="Car">&nbsp;&nbsp;<div class="fa fa-car fa-4x"></div><br><br>  
+			      <input type="checkbox" name="Transportation3" value="Bus" >&nbsp;&nbsp;<div class="fa fa-subway fa-4x"></div>
+			      <input type="checkbox" name="Transportation4" value="Taxi" >&nbsp;&nbsp;<div class="fa fa-cab fa-4x"></div><br><br>
+				  <input type="checkbox" name="Transportation5" value="walk" >&nbsp;&nbsp;<div class="fa fa-motorcycle fa-4x"></div>
+				  <input type="checkbox" name="Transportation5" value="walk" >&nbsp;&nbsp;<div class="fa fa-ship fa-4x"></div><br><br>
+				  <input type="checkbox" name="Transportation5" value="walk" >&nbsp;&nbsp;<div class="fas fa-walking fa-4x"></div> ///?  there is no walking Icon?
+				  
+		            </center>
+			</div>
+                </div>
+				
+		<!-- Activity -->
+                <div class="bhoechie-tab-content">
+                    <center>
+                      <input type="checkbox" name="Transportation2" value="Car">&nbsp;&nbsp;<div class="fa fa-car fa-4x"></div><br><br>  
+			      
+					  
+                    </center>
+                </div>
+				
+				
+				
+		<!-- timetable -->
+                <div class="bhoechie-tab-content">
+                    <center>
+                      
+					  <div class="tab">
+  
+  <table border="11" height="500"  width="500"  >
+    
+	 <tr>
+	   <td><font size="4">Working days</td>
+	   <td><font size="4">Saturday</td>
+	   <td><font size="4">Sunday</td>
+	 </tr>
+	 
+	 <tr>
+	 
+	   <td>
+	   <form>
+<input type="radio" name="choice" value="S">moorning
+<input type="radio" name="choice" value="S1">noon
+<input type="radio" name="choice" value="S2">afternoon
+<input type="radio" name="choice" value="S4">evening
+<input type="radio" name="choice" value="S3">night
+      </form>
+	  </td>
+	   <td>
+	  <form >
+<input type="radio" name="choice" value="S">moorning
+<input type="radio" name="choice" value="S1">noon
+<input type="radio" name="choice" value="S2">afternoon
+<input type="radio" name="choice" value="S4">evening
+<input type="radio" name="choice" value="S">night
+      </form>
+	  </td> 
+	  <td>
+	   <form >
+<input type="radio" name="choice" value="S">moorning
+<input type="radio" name="choice" value="S1">noon
+<input type="radio" name="choice" value="S2">afternoon
+<input type="radio" name="choice" value="S4">evening
+<input type="radio" name="choice" value="s">night
+      </form>
+	  </td>
+	  
+	  
+	
+	</table>
+	
+					  
+                    </center>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+    $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
+        e.preventDefault();
+        $(this).siblings('a.active').removeClass("active");
+        $(this).addClass("active");
+        var index = $(this).index();
+        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+    });
+});
+</script>
+
+</body>
+</html>
